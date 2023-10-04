@@ -1,6 +1,10 @@
 # Home Assistant Add-on: CheckMK Agent
 
-_Expose CheckMK Agent output on port 6556, so your CheckMK can collect stats and state of your home assistant._
+**Author:** Jacek Smit
+
+_Exposes CheckMK Agent output on port 6556, so your CheckMK can collect stats and state of your home assistant._
+
+
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
