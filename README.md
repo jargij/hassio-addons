@@ -1,5 +1,5 @@
 # CheckMK Agent Addon Repository
-
+Author: Jacek Smit
 ## Installation
 
 [![Add repository on my Home Assistant][repository-badge]][repository-url]
