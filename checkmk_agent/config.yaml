@@ -1,6 +1,6 @@
 name: "CheckMK Agent"
 description: "Exposes CheckMK Agent on port 6556, made for HassOS"
-version: "0.4"
+version: "0.4.1"
 slug: "checkmk-agent"
 init: false
 arch:
