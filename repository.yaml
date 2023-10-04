@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: CheckMK Agent Addon Repository
+url: 'https://github.com/jargij/hassio-addons'
+maintainer: Jacek Smit

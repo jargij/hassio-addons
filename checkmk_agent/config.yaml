@@ -1,0 +1,14 @@
+name: "CheckMK Agent"
+description: "Exposes CheckMK Agent on port 6556, made for HassOS"
+version: "0.3"
+slug: "checkmk-agent"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports:
+  6556/tcp: 6556
+startup: services

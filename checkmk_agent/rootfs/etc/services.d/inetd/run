@@ -1,0 +1,13 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Start inetd service if enabled
+# ==============================================================================
+
+# If CheckMK port is disabled, use a fake sleep process
+if ! bashio::var.has_value "$(bashio::addon.port 6556)"; then
+    bashio::log.warning "CheckMK port is disabled. Prevent start of inetd server." 
+    exec sleep infinity
+fi
+
+bashio::log.info "Starting the inetd daemon..."
+exec /usr/sbin/inetd -fe
